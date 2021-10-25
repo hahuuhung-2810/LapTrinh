@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "290656016343",
+    "project_id": "ad-education-6d733",
+    "storage_bucket": "ad-education-6d733.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290656016343:android:a5e25de22ec17470d15d92",
+        "android_client_info": {
+          "package_name": "com.hungno.adeducation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "290656016343-dp9j70gfe516h7modmprpes7t56fubpv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKUfVqi2Xzx-_guUUM9OfejuS2GVHmGLc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "290656016343-dp9j70gfe516h7modmprpes7t56fubpv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
