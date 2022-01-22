@@ -45,6 +45,18 @@
         <entry key="..\:/Android_HaHuuHung/ADEducation/app/src/main/res/mipmap-anydpi-v26/ic_mail_round.xml" value="0.1723127035830619" />
         <entry key="..\:/Android_HaHuuHung/ADEducation/app/src/main/res/mipmap-anydpi-v26/ic_shiled.xml" value="0.1" />
         <entry key="..\:/Android_HaHuuHung/ADEducation/app/src/main/res/mipmap-anydpi-v26/ic_shiled_round.xml" value="0.1" />
+        <entry key="..\:/LapTrinh/app/src/main/res/drawable/botron.xml" value="0.15104166666666666" />
+        <entry key="..\:/LapTrinh/app/src/main/res/drawable/botron_linear.xml" value="0.15104166666666666" />
+        <entry key="..\:/LapTrinh/app/src/main/res/layout/activity_danh_sach.xml" value="0.13333333333333333" />
+        <entry key="..\:/LapTrinh/app/src/main/res/layout/activity_danh_sach_hs.xml" value="0.1" />
+        <entry key="..\:/LapTrinh/app/src/main/res/layout/activity_home.xml" value="0.20199275362318841" />
+        <entry key="..\:/LapTrinh/app/src/main/res/layout/activity_menu.xml" value="0.176" />
+        <entry key="..\:/LapTrinh/app/src/main/res/layout/activity_successfully_sign_up.xml" value="0.20199275362318841" />
+        <entry key="..\:/LapTrinh/app/src/main/res/layout/fragment_canhan.xml" value="0.13489583333333333" />
+        <entry key="..\:/LapTrinh/app/src/main/res/layout/fragment_home.xml" value="0.13385416666666666" />
+        <entry key="..\:/LapTrinh/app/src/main/res/layout/fragment_thong_bao.xml" value="0.20199275362318841" />
+        <entry key="..\:/LapTrinh/app/src/main/res/layout/introduce.xml" value="0.20199275362318841" />
+        <entry key="..\:/LapTrinh/app/src/main/res/menu/menu.xml" value="0.259375" />
       </map>
     </option>
   </component>

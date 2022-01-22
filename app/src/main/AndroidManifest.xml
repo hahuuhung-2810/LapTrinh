@@ -12,9 +12,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ADEducation">
         <activity
-            android:name=".Data"
-            android:exported="false" />
-        <activity
             android:name=".ForgotPasswordActivity"
             android:exported="true" />
         <activity
@@ -24,9 +21,6 @@
             android:name=".SuccessfullySignUp"
             android:exported="true" />
         <activity
-            android:name=".HomeActivity"
-            android:exported="true" />
-        <activity
             android:name=".FaceBookActivity"
             android:exported="true" />
         <activity
@@ -34,6 +28,21 @@
             android:exported="true" />
         <activity
             android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DanhSachActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DanhSachLop"
+            android:exported="true" />
+        <activity
+            android:name=".DanhSachHS"
+            android:exported="true" />
+        <activity
+            android:name=".DetailDSHS"
+            android:exported="true" />
+        <activity
+            android:name=".DiemdanhActivity"
             android:exported="true" />
         <activity
             android:name=".MainActivity"

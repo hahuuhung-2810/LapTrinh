@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/nentrong"
+    tools:context=".DanhSachActivity">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnDSlop"
+        android:layout_width="151dp"
+        android:layout_height="151dp"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/botron_button"
+        android:onClick="xulydslop"
+        android:text="Danh sách lớp"></androidx.appcompat.widget.AppCompatButton>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="151dp"
+        android:layout_height="151dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/botron_button"
+        android:text="Danh sách học sinh"
+        android:layout_marginTop="10dp"
+        android:onClick="xulydshs"
+        android:id="@+id/btnDSHS"
+        ></androidx.appcompat.widget.AppCompatButton>
+
+</LinearLayout>

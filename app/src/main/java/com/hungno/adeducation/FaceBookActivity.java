@@ -69,6 +69,6 @@ public class FaceBookActivity extends LoginActivity{
                 });
     }
     private void updateUI(FirebaseUser user) {
-        Intent intent = new Intent(FaceBookActivity.this,HomeActivity.class);
+        Intent intent = new Intent(FaceBookActivity.this,MainActivity.class);
     }
 }

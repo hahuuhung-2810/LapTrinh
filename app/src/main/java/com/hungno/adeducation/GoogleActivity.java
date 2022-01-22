@@ -38,7 +38,7 @@ public class GoogleActivity extends LoginActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                //.requestIdToken(getString(R.string.default_web_client_id))
+//                .requestIdToken(getString(R.string.default_web_client_id))
                 .requestEmail()
                 .build();
 
@@ -63,7 +63,7 @@ public class GoogleActivity extends LoginActivity {
                 GoogleSignInAccount account = task.getResult(ApiException.class);
                 Log.d(TAG, "firebaseAuthWithGoogle:" + account.getId());
                 firebaseAuthWithGoogle(account.getIdToken());
-                Intent intent = new Intent(GoogleActivity.this,HomeActivity.class);
+                Intent intent = new Intent(GoogleActivity.this,MainActivity.class);
                 startActivity(intent);
             } catch (ApiException e) {
                 Log.w(TAG, "Google sign in failed", e);
@@ -71,7 +71,6 @@ public class GoogleActivity extends LoginActivity {
             }
         }
     }
-
     private void firebaseAuthWithGoogle(String idToken) {
         AuthCredential credential = GoogleAuthProvider.getCredential(idToken, null);
         mAuth.signInWithCredential(credential)
@@ -92,7 +91,6 @@ public class GoogleActivity extends LoginActivity {
         Intent signInIntent = mGoogleSignInClient.getSignInIntent();
         startActivityForResult(signInIntent, RC_SIGN_IN);
     }
-
     private void updateUI(FirebaseUser user) {
         if (user == null) {
             signIn();
